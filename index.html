@@ -91,7 +91,18 @@
             </div>
             <div class="col-md-12">
                 <ul class="timeline">
-                    <li class="timeline-event" data-aos="fade-up">
+					<li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">September 2013 - April 2017</p>
+                            <h3>Computer Engineering - Guelph, ON</h3>
+                            <h4>University of Guelph</h4>
+                            <p>First discovered my love for computers shortly after I enrolled at the university of Guelph.
+							<br/>Took courses in hardware design, as well as circuits and low level programming (assembly and C).
+							<br/>Worked with wirless devices and sensors in creating practical systems.</p>
+						</div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
                         <label class="timeline-event-icon"></label>
                         <div class="timeline-event-copy">
                             <p class="timeline-event-thumbnail">June 2017 - December 2017</p>
@@ -115,6 +126,7 @@
 							<p>Developed macros for things such as sorting documents to make other co-workers repetitive jobs easier.</p>
 						</div>
                     </li>
+					
                 </ul>
             </div>
         </div>
@@ -160,7 +172,7 @@
                                 <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Pipelined Microprocesser</span> <em>Hardware / Design</em> </div>
+                                            <div class="item_info"> <span>Pipelined Microprocessor</span> <em>Hardware / Design</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -169,7 +181,7 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 design machine">
-                                <a id="demo02" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                <a id="demo02" href="#animatedModal2" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Green Bean Rejection System</span> <em>Machine Learning / Design</em> </div>
@@ -180,8 +192,8 @@
                             <!-- end single work -->
                             
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 hardware">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                            <div class="col-md-4 col-sm-6 hardware personal">
+                                <a id="demo03" href="#animatedModal3" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Raspberry Pi Camera </span> <em>Hardware</em> </div>
@@ -205,7 +217,7 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 work ">
-                                <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
+                                <a id="demo04" href="#animatedModal4" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
                                             <div class="item_info"> <span>Implementing Elastic Search</span> <em>Work</em> </div>
@@ -328,22 +340,102 @@
             <div class="container">
                 <div class="portfolio-padding">
                     <div class="col-md-8 col-md-offset-2">
-                        <h2>Test <br />  Header</h2>
+                        <h2>Pipelined <br />  Microprocessor</h2>
                         <div class="h-50"></div>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <p>Created a <a href="https://github.com/bestbenchbuddy/VHDL/tree/master/Pipelined%205-stage%20processor/March6th%20Pipelined%20Processor"> 5 stage pipelined microprocessor </a> using VHDL</p>
+                        <p>Syncronized the 5 stages (Fetch, Decode, Execute, Memory, Writeback) for each clock-cycle to theoretically increase throughput by 400%</p>
                         <br />
-                        <br /> <img src="img/portfolio/02.jpg" alt="" class="img-responsive" />
+                        <br /> <img src="img/5-stage-mircoprocessor.png" alt="" class="img-responsive" />
                         <br />
                         <br />
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                        <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
+                        <p>Image illustrating basic pipelined represention: https://www.researchgate.net/figure/Typical-5-stage-microprocessor-pipeline-with-the-addressed-vulnerabilities-shown-thatched_fig1_221246499</p>
+                        <p></p>
                         <br />
-                        <br /> </div>
+                        <br /> 
+					</div>
                 </div>
             </div>
         </div>
     </div>
+	<div id="animatedModal2" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal2 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Green Bean<br />  Rejection System</h2>
+                        <div class="h-50"></div>
+                        <p>The problem statement:  A company called "Matt and Steve's Extreme Bean"  was looking to automate their heavily manual process of creating picked green bean jars.  The goal was to create an automated system that could determine whether a green bean was good or bad.</p>
+                        <p>Criteria for a bad bean would either be mold, dirt, or broken.</p>
+                        <br />
+                        <br /> <img src="img/green_beans.png" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p>The system created used a video camera to watch a conveyorbelt while the beans came down, and determine whether it was a good bean, bad bean. <br/>
+						This was done using Tensorflows neural network to create an image classifier.  By taking pictures of good and bad green beans (as well as pictures of the conveyorbelt with part of the green bean showing on the camera) 
+						The system could determine with an accuracy of >95% whether the bean it was looking at should be rejected or not.
+						</p>
+                        <p>In order to train the neural network, we used 200 photos of good and bad beans, as well as 50 or so pictures of beans not entirely in frame for the camera.</p>
+                        <br />
+                        <br /> 
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="animatedModal3" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal3 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Raspberry Pi<br />  Camera</h2>
+                        <div class="h-50"></div>
+                        <p>Interfaced a Raspberry Pi with a Pi Camera using python.</p>
+                        <p>The end result allowed pictures to be saved in a specified dropbox account over WiFi, immediately after taking a photo.</p>
+                        <br />
+                        <br /> <img src="img/raspberry_pi.jpg" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p></p>
+                        <p></p>
+                        <br />
+                        <br /> 
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div id="animatedModal4" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        <div id="btn-close-modal" class="close-animatedModal4 close-popup-modal"> <i class="ion-close-round"></i> </div>
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Implementing<br /> Elastic Search</h2>
+                        <div class="h-50"></div>
+                        <p>Implemented Elastic Search to assist in monitoring hundered of apps within RBC.</p>
+                        <p>Creating dashboards and indexing different sources, including from a cloud source (Public Cloud Foundry/PCF)</p>
+                        <br />
+                        <br /> <img src="img/elastic.png" alt="" class="img-responsive" />
+                        <br />
+                        <br />
+                        <p></p>
+                        <p></p>
+                        <br />
+                        <br /> 
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!--  plugins  -->
